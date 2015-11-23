@@ -230,7 +230,7 @@ amixer cset numid=3 1
 You may want to overclock the Pi. And you won't even lose the guarantee for your pi, if you use the "offical" overclocking presets. The simplest way to overclock the pi is `rasp-config` tool which ships with the offical allowed overclocking presets.
 
 ```
-wget https://raw2.github.com/chattama/raspi-config-archlinux/archlinux/raspi-config
+wget https://raw.github.com/chattama/raspi-config-archlinux/archlinux/raspi-config
 ```
 
 Get to the overclocking menu and choose the overclocking preset you want. I recommend the "high" preset. After changing the overclocking preset, reboot your raspberry pi.
